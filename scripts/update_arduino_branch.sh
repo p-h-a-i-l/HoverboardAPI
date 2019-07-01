@@ -13,6 +13,7 @@ flatten_submodule() {
                                  # you need to edit this file instead of deleting!
   rm -rf src/hbprotocol/.git     # make sure you have backup!!
   rm -rf src/hbprotocol/examples
+  rm -rf src/hbprotocol/README.md
   rm -rf scripts
   rm -rf .travis.yml
   mv src/hbprotocol/* src/
